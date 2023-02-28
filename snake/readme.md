@@ -1,3 +1,3 @@
 ## Snake
 
-![diagram](snakeclassdiagram.drawio)
+![diagram](Untitled Diagram.drawio)
