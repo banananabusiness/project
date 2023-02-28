@@ -1,3 +1,3 @@
-# project
+# snake
 project one will be snake making a time limit about 2-5 minutes to see how far they can get maybe make the timer customizable 
  https://github.com/banananabusiness/project/blob/main/Images/Snake.png
