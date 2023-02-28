@@ -3,7 +3,7 @@ we are gonna try to make snake with special features something like a time limit
 
 i think it might be possible to have multiple snakes
 
-![diagram](snakeclassdiagram.drawio.svg)
+![diagram](snakeclassdiagram.drawio.sv)
 
 ![snake](https://github.com/banananabusiness/project/blob/main/Images/Snake.png)
 ![snake](https://github.com/banananabusiness/project/blob/main/Images/Untitled%20Diagram.drawio.png)
