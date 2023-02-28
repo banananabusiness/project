@@ -1,3 +1,3 @@
 ## Snake
 
-![diagram](Untitled Diagram.drawio)
+![diagram](snake/Untitled Diagram.drawio)
