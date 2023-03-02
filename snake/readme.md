@@ -2,13 +2,13 @@
 we are gonna try to make snake with special features something like a time limit and maybe levels but not sure
 
 i think it might be possible to have multiple snakes
-
+---
 ### Class Diagram
 ![snake class diagram](snakeclassdiagram.drawio.svg)
 [link for editing the diagram](https://viewer.diagrams.net/?tags=%7B%7D&highlight=0000ff&edit=https%3A%2F%2Fapp.diagrams.net%2F%3Fmode%3Dgithub%23Hbanananabusiness%252Fproject%252Fmain%252Fsnake%252Fsnakeclassdiagram.drawio.svg&layers=1&nav=1&title=snakeclassdiagram.drawio.svg#R7VjbcpswEP0aT9sHZ7jYpHkMzq1t2knrpmkfFSSDxkJLhRzjfH1XIIyB0PSWpA%2BZyUy0R7uLdvdoWTzyZ2lxqkiWvAfKxMhzaDHyj0ae5078Cf4zyKZC9t39CogVp1apAeb8llnQseiKU5a3FDWA0DxrgxFIySLdwohSsG6rLUC0n5qRmPWAeUREH73iVCcV%2Btrbb%2FAzxuOkfrIbHFQ7KamVbSR5QiisdyD%2FeOTPFICuVmkxY8Ikr87L1ZvNlThfBqdvP%2BbfyWX47vOHL%2BPK2cnvmGxDUEzqP3adzZanmRfcnH0n42D89XLsjw%2BsiXNDxMrmay7JkiF0xgi1cetNncx8zVNBJErhAqSe2x0H5Sjhgp6TDazMEXNNomUthQkofov6ROCWiwBuK2254jstjbmxtD4Vy1Hnoo7b7UDvSdFSPCe5rk8DQpAs59fl%2BYxhSlTMZQhaQ2qV1gnXbJ6RyOiskf7mIDqtD2lTw5RmRYdL9xTC3bIDrxWDlGm1QTvrxZ%2FYrNsbtSXYuuGnW%2Bsku9z0LUjsnYi3vpu648KW%2Fjdo4PZpoBWXsbn3XOG15CBHXiBMMa8VrmKzeoNJqE89sGmPP7BbDG1shjaugSLlZGye2OEmVkmX1FKwZDMQoBCXUJGVC9GBiOCxRFGwhTEzZebYNQ4tnHJKjecwR35gJs5LtaNJg3yyhTEQoPlClM0hQUOGHsIMuNRloaYh%2FmHpZs7edDTFs85QdhsZ%2F4y60jOQeHzCS3IxZPOaGUaHCjTR5Hp71%2F4FcYfbQZ%2B4lqj%2Br%2FLUeSieBoPtKkRiPLerx2hXk%2BDJ29V%2BjwYP2oqeG80%2FbzTBf95oXvcY9vIEi4pTIVYgNbFhbnGSTUzvyW0PwpcTx1HXnLt8QgzlsFvpcWOdKXbDYZWX8y4oyiXRxnIlNRdbfwuuckM9wx%2FjpfRZ%2BylTQOiLng8iaUuju7%2Frh2uzlGzdUtp71eP6PQQgeVbN7AteMPqATcgNOk3IuYMi%2FqM2oYMeRXrZY5Iemk8YlCJB8pxH7fQpWElq8lZeNlZw%2FdWs8bJW0rednaNiV9jUgsRQrJE7qQFj5%2B453rQGGuNSallfMMUxI0xZsIqC0d5n1a8UEMOHlYrY%2Fe9wfKXG7GctYoAQOwWf3lHvGlNMEM1v2jHcxQH7hAvTRHdeegdtvvnTDo2qMK3V7ldXx9Gk8%2Fb0uy2rykPPUUnJbdh%2FMdn3R%2FsTgOcvuwfpUlOv82U3ffJRyfUGZqXngedRBx53gDmPMPGg2PxIVfWV5qc%2B%2F%2FgH)
-
+---
 ### Reference
 ![snake](https://github.com/banananabusiness/project/blob/main/Images/Snake.png)
-
+---
 ### Concept Art
 ![snake](https://github.com/banananabusiness/project/blob/main/Images/Untitled%20Diagram.drawio.png)
