@@ -1,6 +1,10 @@
 ## fighting game
 we are going to make a game fighting game similar with our own character and mechanics
 
+### Class Diagram
+![diagram](fightgame.drawing.svg)
+
+
 ### Concept Art
 ![conceptart](https://github.com/banananabusiness/project/blob/main/Images/conceptart.png)
 
