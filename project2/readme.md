@@ -2,7 +2,7 @@
 we are going to make a game fighting game similar with our own character and mechanics
 
 ### Class Diagram
-![diagram](fightgame.drawing.svg)
+![diagram](fightgame.drawio.svg)
 
 
 ### Concept Art
