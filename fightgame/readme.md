@@ -7,7 +7,7 @@ we are going to make a game fighting game similar with our own character and mec
 
 
 ### Concept Art
-![conceptart](https://github.com/banananabusiness/project/blob/main/Images/conceptart.png)
+![conceptart](https://github.com/banananabusiness/project/blob/main/fightgame/Images/conceptart.png)
 
 ### Reference
-![fightinggame](https://github.com/banananabusiness/project/blob/main/Images/fightinggame.png)
+![fightinggame](https://github.com/banananabusiness/project/blob/main/fightgame/Images/fightinggame.png)
