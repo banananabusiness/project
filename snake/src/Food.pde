@@ -7,4 +7,9 @@ class Food {
     this.x = x;
     this.x = y;
   }
+  
+  void display() {
+    fill(255,0,0);
+    rect(x,y,w,h);
+  }
 }
