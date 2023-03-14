@@ -1,6 +1,14 @@
 class SnakeHead {
   String direction;
-  int width, height, x, y, bodylength;
+  int w, h, x, y, bodylength;
   
-  SnakeHead() {}
+  SnakeHead() {
+    w = 50;
+    h = 50;
+    x = width/2;
+    y = height/2;
+    bodylength = 3;
+    direction = "up";
+    ArrayList<SnakeBody> body = new ArrayList<SnakeBody>();
+  }
 }
