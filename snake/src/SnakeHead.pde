@@ -11,4 +11,10 @@ class SnakeHead {
     direction = "up";
     ArrayList<SnakeBody> body = new ArrayList<SnakeBody>();
   }
+  
+  void display() {
+    rectMode(CENTER);
+    fill(0);
+    rect(x,y,w,h);
+  }
 }

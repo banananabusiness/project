@@ -7,4 +7,10 @@ class SnakeBody {
     this.x = x;
     this.x = y;
   }
+  
+  void display() {
+    rectMode(CENTER);
+    fill(128,0,0);
+    rect(x,y,w,h);
+  }
 }

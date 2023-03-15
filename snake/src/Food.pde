@@ -9,6 +9,7 @@ class Food {
   }
   
   void display() {
+    rectMode(CENTER);
     fill(255,0,0);
     rect(x,y,w,h);
   }
