@@ -10,3 +10,14 @@ void setup() {
 void draw() {
   snek1.display();
 }
+
+
+void infoPanel() {
+  fill(255, 100);
+  rectMode(CENTER);
+  rect(400, 25, width, 50);
+  fill(80, 80, 80);
+  textSize(40);
+  textAlign(CENTER);
+  text("Score: "+ +"   Level: "+ "      Time: "+ time , 400, 40);
+}
