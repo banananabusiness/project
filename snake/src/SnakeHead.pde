@@ -23,5 +23,29 @@ class SnakeHead {
     if (direction == "up") {
       y-=50;
     }
+    else if (direction == "down") {
+      y+=50;
+    }
+   else if (direction == "right") {
+      x+=50;
+    }
+    else if (direction == "left") {
+      x-=50;
+    }
+  }
+  
+  void turn(String dir) {
+    if (dir == "up" && !(direction == "down")) {
+      direction = "up";
+    }
+    if (dir == "left" && !(direction == "right")) {
+      direction = "left";
+    }
+    if (dir == "right" && !(direction == "left")) {
+      direction = "right";
+    }
+    if (dir == "down" && !(direction == "up")) {
+      direction = "down";
+    }
   }
 }
