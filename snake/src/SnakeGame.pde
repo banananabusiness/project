@@ -1,3 +1,4 @@
+//Steven Babcock 
 SnakeHead snek1;
 ArrayList<Food> foods = new ArrayList<Food>();
 
