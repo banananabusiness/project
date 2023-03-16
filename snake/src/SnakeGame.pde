@@ -2,6 +2,7 @@
 SnakeHead snek1;
 ArrayList<Food> foods = new ArrayList<Food>();
 int time = millis()/1000;
+int startTime = -1;
 
 void setup() {
   size(800, 800);
@@ -9,7 +10,13 @@ void setup() {
 }
 
 void draw() {
+  background(255);
   snek1.display();
+  if (startTime == -1) {startTime = millis();}
+  if (millis() > startTime + 1000) {
+    snek1.move();
+    startTime = -1;
+    }
 }
 
 

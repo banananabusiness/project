@@ -18,4 +18,10 @@ class SnakeHead {
     fill(0);
     rect(x,y,w,h);
   }
+  
+  void move() {
+    if (direction == "up") {
+      y-=50;
+    }
+  }
 }
