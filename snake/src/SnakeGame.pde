@@ -1,6 +1,7 @@
-//Steven Babcock 
+//Rafid Aayan, Steven Babcock 
 SnakeHead snek1;
 ArrayList<Food> foods = new ArrayList<Food>();
+int time = millis()/1000;
 
 void setup() {
   size(800, 800);
@@ -19,5 +20,5 @@ void infoPanel() {
   fill(80, 80, 80);
   textSize(40);
   textAlign(CENTER);
-  text("Score: "+ +"   Level: "+ "      Time: "+ time , 400, 40);
+  text("Score: "+ "   Level: "+ "      Time: "+ time, 400, 40);
 }

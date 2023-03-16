@@ -1,3 +1,4 @@
+//Rafid Aayan, Steven Babcock
 class SnakeHead {
   String direction;
   int w, h, x, y, bodylength;

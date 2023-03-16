@@ -1,3 +1,4 @@
+//Rafid Aayan, Steven Babcock
 class SnakeBody {
   int w, h, x, y;
   
