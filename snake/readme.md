@@ -5,7 +5,7 @@ i think it might be possible to have multiple snakes
 
 ---
 ### Class Diagram
-![snake class diagram](snakeclassdiagram.drawio.svg)
+![snake class diagram](snakeclassdiagram-rafid.drawio.svg)
 ---
 ### Reference
 ![snake](https://github.com/banananabusiness/project/blob/main/snake/Images/Snake.png)
