@@ -1,23 +1,26 @@
 //Rafid Aayan, Steven Babcock 
 SnakeHead snek1;
 ArrayList<Food> foods = new ArrayList<Food>();
-int time = millis()/1000;
-int startTime = -1;
+int frametime = 1000;
+Time frame;
 
 void setup() {
-  size(800, 800);
+  size(950, 950);
   snek1 = new SnakeHead();
+  frame = new Time(frametime);
+  frame.start();
+  
 }
 
 void draw() {
   background(255);
   snek1.display();
-  if (startTime == -1) {startTime = millis();}
-  if (millis() > startTime + 1000) {
+  if (frame.isFinished()) {
     snek1.move();
-    startTime = -1;
-    }
+    frame.start();
+  }
 }
+
 
 
 void infoPanel() {
@@ -27,5 +30,5 @@ void infoPanel() {
   fill(80, 80, 80);
   textSize(40);
   textAlign(CENTER);
-  text("Score: "+ "   Level: "+ "      Time: "+ time, 400, 40);
+  text("Score: "+ "   Level: "+ "      Time: "+ millis()/1000, 400, 40);
 }
