@@ -6,12 +6,12 @@ class SnakeBody {
     w = 50;
     h = 50;
     this.x = x;
-    this.x = y;
+    this.y = y;
   }
   
   void display() {
     rectMode(CENTER);
-    fill(128,0,0);
+    fill(128);
     rect(x,y,w,h);
   }
   

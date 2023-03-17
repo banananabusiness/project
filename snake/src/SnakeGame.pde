@@ -1,7 +1,7 @@
 //Rafid Aayan, Steven Babcock 
 SnakeHead snek1;
 ArrayList<Food> foods = new ArrayList<Food>();
-int frametime = 1000;
+int frametime = 500;
 Time frame;
 int offsety = 50;
 
