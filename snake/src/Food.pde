@@ -15,3 +15,13 @@ class Food {
     rect(x,y,w,h);
   }
 }
+
+ boolean intersect(SnakeHead SnakeHead) {
+   float d = dist(x, y, SnakeHead.x, SnakeHead.y);
+    if (d<40) {
+      return true;
+    } else {
+      return false;
+    }
+  }
+}
