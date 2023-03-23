@@ -9,11 +9,11 @@ class SnakeHead {
     h = 50;
     this.x = x;
     this.y = y;
-    bodylength = 3;
+    bodylength = 7; //change to 1/2/3 later (7 is for testing)
     direction = "up";
     body = new ArrayList<SnakeBody>();
     body.add(new SnakeBody(x,y+50));
-    for (int i=1;i<7;i++) {   //change to 1/2/3 later (7 is for testing)
+    for (int i=1;i<bodylength;i++) {   
       body.add(new SnakeBody(body.get(i-1).x,body.get(i-1).y+50));
     }   
     hasMoved=false;

@@ -11,15 +11,27 @@ void setup() {
   snek1 = new SnakeHead(width/2,+height/2+offsety/2);
   frame = new Time(frametime);
   frame.start();
-  
+  foods.add(new Food(int(random(18))*50+25,int(random(18))*50+25+offsety));
 }
 
 void draw() {
   background(255);
   infoPanel();
   snek1.display();
+  for (int i=0;i<foods.size();i++) {
+      foods.get(i).display();
+    }
   if (frame.isFinished()) {
     snek1.move();
+    for (int i=0;i<foods.size();i++) {
+      if (foods.get(i).intersect(snek1)) {
+        foods.remove(i);
+        foods.add(new Food(int(random(18))*50+25,int(random(18))*50+25+offsety));
+        
+        snek1.body.add(new SnakeBody(snek1.body.get(snek1.body.size()-1).x,snek1.body.get(snek1.body.size()-1).y+50));
+        snek1.bodylength++;
+      }
+    }
     frame.start();
   }
 }
