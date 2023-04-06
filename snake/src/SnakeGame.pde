@@ -4,6 +4,7 @@ ArrayList<Food> foods = new ArrayList<Food>();
 int frametime = 500;
 Time frame;
 int offsety = 50;
+int score = 0;
 
 void settings(){size(950, 950 + offsety);}
 
@@ -30,6 +31,7 @@ void draw() {
         
         snek1.body.add(new SnakeBody(snek1.body.get(snek1.body.size()-1).x,snek1.body.get(snek1.body.size()-1).y));
         snek1.bodylength++;
+        score++;
       }
     }
     frame.start();
@@ -51,5 +53,5 @@ void infoPanel() {
   fill(80, 80, 80);
   textSize(40);
   textAlign(CENTER);
-  text("Score: "+ "   Level: "+ "      Time: "+ millis()/1000, width/2, 40);
+  text("Score: "+ score +"   Level: "+ "      Time: "+ millis()/1000, width/2, 40);
 }
