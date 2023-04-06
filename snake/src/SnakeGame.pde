@@ -6,13 +6,13 @@ Time frame;
 int offsety = 50;
 int score = 0;
 
-void settings(){size(950, 950 + offsety);}
+void settings(){size(850, 850 + offsety);}
 
 void setup() {
   snek1 = new SnakeHead(width/2,+height/2+offsety/2);
   frame = new Time(frametime);
   frame.start();
-  foods.add(new Food(int(random(18))*50+25,int(random(18))*50+25+offsety));
+  foods.add(new Food(int(random(16))*50+25,int(random(16))*50+25+offsety,snek1));
 }
 
 void draw() {
@@ -27,7 +27,7 @@ void draw() {
     for (int i=0;i<foods.size();i++) {
       if (foods.get(i).intersect(snek1)) {
         foods.remove(i);
-        foods.add(new Food(int(random(18))*50+25,int(random(18))*50+25+offsety));
+        foods.add(new Food(int(random(16))*50+25,int(random(16))*50+25+offsety,snek1));
         
         snek1.body.add(new SnakeBody(snek1.body.get(snek1.body.size()-1).x,snek1.body.get(snek1.body.size()-1).y));
         snek1.bodylength++;
