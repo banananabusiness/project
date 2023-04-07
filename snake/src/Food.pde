@@ -1,4 +1,4 @@
-//Rafid Aayan, Steven Babcock
+//Rafid Aayan
 class Food {
   int w, h, x, y;
   PImage food;

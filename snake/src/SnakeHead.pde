@@ -1,9 +1,10 @@
-//Rafid Aayan, Steven Babcock
+//Rafid Aayan
 class SnakeHead {
   String direction;
   int w, h, x, y, bodylength;
   boolean hasMoved;
   ArrayList<SnakeBody> body;
+  color ch = color(0),cb = color(128);
   SnakeHead(int x,int y) {
     w = 50;
     h = 50;
@@ -12,9 +13,9 @@ class SnakeHead {
     bodylength = 7; //change to 1/2/3 later (7 is for testing)
     direction = "up";
     body = new ArrayList<SnakeBody>();
-    body.add(new SnakeBody(x,y+50));
+    body.add(new SnakeBody(x,y+50,cb));
     for (int i=1;i<bodylength;i++) {   
-      body.add(new SnakeBody(body.get(i-1).x,body.get(i-1).y+50));
+      body.add(new SnakeBody(body.get(i-1).x,body.get(i-1).y+50,cb));
     }   
     hasMoved=false;
   }
@@ -24,7 +25,7 @@ class SnakeHead {
       body.get(i).display();
     }  
     rectMode(CENTER);
-    fill(0);
+    fill(ch);
     rect(x,y,w,h);
   }
   

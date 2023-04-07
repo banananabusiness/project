@@ -1,7 +1,7 @@
 //Rafid Aayan, Steven Babcock 
 SnakeHead snek1;
 ArrayList<Food> foods = new ArrayList<Food>();
-int frametime = 500;
+int frametime = 200;
 Time frame;
 int offsety = 50;
 int score = 0;
@@ -29,7 +29,7 @@ void draw() {
         foods.remove(i);
         foods.add(new Food(int(random(16))*50+25,int(random(16))*50+25+offsety,snek1));
         
-        snek1.body.add(new SnakeBody(snek1.body.get(snek1.body.size()-1).x,snek1.body.get(snek1.body.size()-1).y));
+        snek1.body.add(new SnakeBody(snek1.body.get(snek1.body.size()-1).x,snek1.body.get(snek1.body.size()-1).y,snek1.cb));
         snek1.bodylength++;
         score++;
       }
@@ -39,11 +39,15 @@ void draw() {
 }
 
 void keyPressed() {
-  //println(keyCode);
+  println(keyCode);
   if (keyCode == 87) {snek1.turn("up");}
   else if (keyCode == 65) {snek1.turn("left");}
   else if (keyCode == 83) {snek1.turn("down");}
   else if (keyCode == 68) {snek1.turn("right");}
+  else if (keyCode == 38) {snek1.turn("up");}
+  else if (keyCode == 37) {snek1.turn("left");}
+  else if (keyCode == 40) {snek1.turn("down");}
+  else if (keyCode == 39) {snek1.turn("right");}
 }
 
 void infoPanel() {
