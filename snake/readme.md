@@ -15,5 +15,9 @@
 
 
 ### Contributors
+![Contributor data](https://github.com/banananabusiness/project/graphs/contributors)
 #### Rafid
 Game logic (excluding ui/graphics)
+![February](https://github.com/banananabusiness/project/commits?after=487b86441fb8116eb57840820136dbf39e039c78+69&author=rafidaayan0)
+![February-March](https://github.com/banananabusiness/project/commits?author=rafidaayan0&before=487b86441fb8116eb57840820136dbf39e039c78+70)
+![March-April](https://github.com/banananabusiness/project/commits?author=rafidaayan0&before=487b86441fb8116eb57840820136dbf39e039c78+35)
