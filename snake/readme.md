@@ -9,9 +9,11 @@
 ---
 ### Concept Art
 ![snake]()
+---
 
 
 
 
-
-#### e
+### Contributors
+#### Rafid
+Game logic (excluding ui/graphics)
