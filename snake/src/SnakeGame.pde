@@ -5,6 +5,7 @@ int frametime = 500;
 Time frame;
 int offsety = 50;
 int score = 0;
+boolean end;
 
 void settings(){size(850, 850 + offsety);}
 
@@ -13,6 +14,7 @@ void setup() {
   frame = new Time(frametime);
   frame.start();
   foods.add(new Food(int(random(16))*50+25,int(random(16))*50+25+offsety,snek1));
+  boolean end = false;
 }
 
 void draw() {
@@ -24,6 +26,7 @@ void draw() {
     }
   if (frame.isFinished()) {
     snek1.move();
+    
     for (int i=0;i<foods.size();i++) {
       if (foods.get(i).intersect(snek1)) {
         foods.remove(i);
@@ -34,7 +37,16 @@ void draw() {
         score++;
       }
     }
+    
+      if (snek1.intersect(snek1)) {
+    end = true;
+  }
+    
     frame.start();
+  }
+  
+  if (end) {
+  text("the snake died so this is a placeholder\nuntil the ui designers make a end screen", width/2, height/2);
   }
 }
 

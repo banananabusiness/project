@@ -75,4 +75,19 @@ class SnakeHead {
     }
     }
   }
+  
+  boolean intersect(SnakeHead SnakeHead) {
+    boolean d = false;
+    for (int i=0; i<SnakeHead.body.size(); i++) {
+        if (dist(this.x, this.y, SnakeHead.body.get(i).x, SnakeHead.body.get(i).y)<40) {
+          d = true;
+          break;
+        }
+  }
+  if (x<0||x>width||y<50||y>height) {
+    d=true;
+  }
+  
+  return d;
+}
 }
