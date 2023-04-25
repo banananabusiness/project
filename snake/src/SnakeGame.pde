@@ -40,14 +40,17 @@ void draw() {
 
 void keyPressed() {
   println(keyCode);
-  if (keyCode == 87) {snek1.turn("up");}
-  else if (keyCode == 65) {snek1.turn("left");}
-  else if (keyCode == 83) {snek1.turn("down");}
-  else if (keyCode == 68) {snek1.turn("right");}
-  else if (keyCode == 38) {snek1.turn("up");}
-  else if (keyCode == 37) {snek1.turn("left");}
-  else if (keyCode == 40) {snek1.turn("down");}
-  else if (keyCode == 39) {snek1.turn("right");}
+  
+  switch (keyCode) {
+  case 87: snek1.turn("up"); break; 
+  case 65: snek1.turn("left"); break; 
+  case 83: snek1.turn("down"); break; 
+  case 68: snek1.turn("right"); break; 
+  case 38: snek1.turn("up"); break; 
+  case 37: snek1.turn("left"); break; 
+  case 40: snek1.turn("down"); break; 
+  case 39: snek1.turn("right"); break; 
+  }
 }
 
 void infoPanel() {
