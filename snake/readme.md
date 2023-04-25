@@ -11,10 +11,8 @@
 ![snake]()
 ---
 
-
-
-
-### Contributors
+---
+## Contributors
 ![Contributor data](https://github.com/banananabusiness/project/graphs/contributors)
 #### Rafid
 ![Responsible for game logic (excluding ui/graphics).](https://github.com/banananabusiness/project/tree/main/snake/src)
@@ -24,4 +22,3 @@
 ![February-March](https://github.com/banananabusiness/project/commits?author=rafidaayan0&before=487b86441fb8116eb57840820136dbf39e039c78+70)
 
 ![March-April](https://github.com/banananabusiness/project/commits?author=rafidaayan0&before=487b86441fb8116eb57840820136dbf39e039c78+35)
---
