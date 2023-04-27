@@ -26,4 +26,4 @@
 #### Brianna
 ![Supervising the development process]([https://github.com/banananabusiness/project/tree/main/snake/src](https://github.com/banananabusiness/project/blob/main/README.md)
 
-![all months] (https://github.com/banananabusiness)
+![all months](https://github.com/banananabusiness)
