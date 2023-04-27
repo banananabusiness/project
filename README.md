@@ -31,5 +31,22 @@ i think it might be possible to have multiple snakes
 
 ![all months](https://github.com/banananabusiness)
 
-####
+#### Preston
+![see if the coding needs reworking or not(tester)]()
 
+![all months](https://github.com/Ptangytang23)
+
+#### Steven
+![ helped code(developer)]()
+
+![all months](https://github.com/Stevenwasntavailable)
+
+#### Bryce
+![made screens(designer)]()
+
+![all months]()
+
+#### Johnny
+![helped code(creator)]()
+
+![all months](https://github.com/zjohnny1810)
