@@ -33,7 +33,7 @@ class Food {
   void display() {
     rectMode(CENTER);
     fill(200, 0, 0);
-    rect(x, y, w, h);
+    rect(x, y, w, h,10);
     imageMode(CENTER);
     food.resize(w, h);
     image(food, x, y);

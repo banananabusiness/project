@@ -26,7 +26,7 @@ class SnakeHead {
     }  
     rectMode(CENTER);
     fill(ch);
-    rect(x,y,w,h);
+    rect(x,y,w,h,10);
   }
   
   void move() {
