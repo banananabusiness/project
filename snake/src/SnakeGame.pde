@@ -60,6 +60,18 @@ void draw() {
   }
 
   
+
+  if (end) {
+    
+  background(0);
+  fill(250);
+  textAlign(CENTER);
+  text("Game Over :( \n Press any button to try again.", width/2, height/2);
+  if (keyPressed) {
+    noLoop();
+  }
+    
+
   }
 }
 
