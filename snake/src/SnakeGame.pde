@@ -27,7 +27,9 @@ void draw() {
     snek1 = new SnakeHead(width/2,+height/2+offsety/2);
   frame = new Time(frametime);
   frame.start();
+  foods = new ArrayList<Food>();
   foods.add(new Food(int(random(16))*50+25,int(random(16))*50+25+offsety,snek1));
+  score = 0;
   end = false;
   }
   } else {
