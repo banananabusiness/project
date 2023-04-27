@@ -44,15 +44,19 @@ class SnakeHead {
     body.get(0).y=y;
     if (direction == "up") {
       y-=50;
+      if (y==25) {y=height-25;}
     }
     else if (direction == "down") {
       y+=50;
+      if (y==height+25) {y=75;}
     }
    else if (direction == "right") {
       x+=50;
+      if (x==width+25) {x=25;}
     }
     else if (direction == "left") {
       x-=50;
+      if (x==-25) {x=width-25;}
     }
     hasMoved=true;
   }
@@ -89,10 +93,9 @@ class SnakeHead {
           break;
         }
   }
-  if (x<0||x>width||y<50||y>height) {
-    d=true;
-  }
-  
+  //if (x<0||x>width||y<50||y>height) {
+  //  d=true;
+  //}
   return d;
 }
 }
