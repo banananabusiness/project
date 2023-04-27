@@ -45,7 +45,7 @@ We are gonna try and make the game a fun and competitve game, by making a timer 
 ![all months]()
 
 #### Johnny
-![helped creat graphics(creator)](https://github.com/banananabusiness/project/tree/main/snake/src)
+![helped create graphics(creator)](https://github.com/banananabusiness/project/tree/main/snake/src)
 
 ![helped code(creator)]()
 
