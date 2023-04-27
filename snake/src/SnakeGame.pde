@@ -14,10 +14,24 @@ void setup() {
   frame = new Time(frametime);
   frame.start();
   foods.add(new Food(int(random(16))*50+25,int(random(16))*50+25+offsety,snek1));
-  boolean end = false;
+  end = false;
 }
 
 void draw() {
+  if (end) {
+  background(0);
+  fill(250);
+  textAlign(CENTER);
+  text("Game Over :(", width/2, height/2);
+  if (keyPressed) {
+    snek1 = new SnakeHead(width/2,+height/2+offsety/2);
+  frame = new Time(frametime);
+  frame.start();
+  foods.add(new Food(int(random(16))*50+25,int(random(16))*50+25+offsety,snek1));
+  end = false;
+  }
+  } else {
+  
   background(255);
   infoPanel();
   snek1.display();
@@ -46,16 +60,6 @@ void draw() {
   }
 
   
-  if (end) {
-    
-  background(0);
-  fill(250);
-  textAlign(CENTER);
-  text("Game Over :(", width/2, height/2);
-  if (keyPressed) {
-    noLoop();
-  }
-    
   }
 }
 
