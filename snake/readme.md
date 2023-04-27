@@ -24,6 +24,6 @@
 ![March-April](https://github.com/banananabusiness/project/commits?author=rafidaayan0&before=487b86441fb8116eb57840820136dbf39e039c78+35)
 
 #### Brianna
-![Supervising the whole project]([https://github.com/banananabusiness/project/tree/main/snake/src](https://github.com/banananabusiness/project/blob/main/README.md)
+![Supervising the whole project](https://github.com/banananabusiness/project/tree/main/snake/src(https://github.com/banananabusiness/project/blob/main/README.md)
 
 ![all months](https://github.com/banananabusiness)
