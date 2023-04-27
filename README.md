@@ -1,7 +1,5 @@
 ## Snake
-we are gonna try to make snake with special features something like a time limit and maybe levels but not sure
-
-i think it might be possible to have multiple snakes
+We are gonna try and make the game a fun and competitve game, by making a timer and a leaderboard.
 
 ---
 ### Class Diagram
