@@ -14,7 +14,7 @@ class SnakeBody {
   void display() {
     rectMode(CENTER);
     fill(cbb);
-    rect(x,y,w,h);
+    rect(x,y,w,h,10);
   }
   
 }
