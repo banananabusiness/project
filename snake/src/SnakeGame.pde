@@ -6,6 +6,7 @@ Time frame;
 int offsety = 50;
 int score = 0;
 boolean end;
+int endtime = 0;
 
 void settings(){size(850, 850 + offsety);}
 
@@ -30,6 +31,7 @@ void draw() {
   foods = new ArrayList<Food>();
   foods.add(new Food(int(random(16))*50+25,int(random(16))*50+25+offsety,snek1));
   score = 0;
+  endtime = millis();
   end = false;
   }
   } else {
@@ -85,5 +87,5 @@ void infoPanel() {
   fill(80, 80, 80);
   textSize(40);
   textAlign(CENTER);
-  text("Score: "+ score +"      Time: "+ millis()/1000, width/2, 40);
+  text("Score: "+ score +"      Time: "+ (millis()/1000-endtime/1000), width/2, 40);
 }
