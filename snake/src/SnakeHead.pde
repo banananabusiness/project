@@ -26,7 +26,12 @@ class SnakeHead {
     }  
     rectMode(CENTER);
     fill(ch);
-    rect(x,y,w,h,10);
+    switch (direction) { //change to rotate textures when we get textures
+  case "up": rect(x,y,w,h,25,25,10,10); break; 
+  case "left": rect(x,y,w,h,25,10,10,25); break; 
+  case "down": rect(x,y,w,h,10,10,25,25); break; 
+  case "right": rect(x,y,w,h,10,25,25,10); break; 
+  }
   }
   
   void move() {
