@@ -13,6 +13,7 @@ void settings(){size(850, 850 + offsety);}
 void setup() {
   snek1 = new SnakeHead(width/2,+height/2+offsety/2);
   frame = new Time(frametime);
+ 
   frame.start();
   foods.add(new Food(int(random(16))*50+25,int(random(16))*50+25+offsety,snek1));
   end = false;
@@ -36,7 +37,7 @@ void draw() {
   }
   } else {
   
-  background(255);
+  background(133,224,76);
   infoPanel();
   snek1.display();
   for (int i=0;i<foods.size();i++) {
