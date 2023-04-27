@@ -44,9 +44,18 @@ void draw() {
     
     frame.start();
   }
+
   
   if (end) {
-  text("the snake died so this is a placeholder\nuntil the ui designers make a end screen", width/2, height/2);
+    
+  background(0);
+  fill(250);
+  textAlign(CENTER);
+  text("Game Over :(", width/2, height/2);
+  if (keyPressed) {
+    noLoop();
+  }
+    
   }
 }
 
@@ -72,5 +81,5 @@ void infoPanel() {
   fill(80, 80, 80);
   textSize(40);
   textAlign(CENTER);
-  text("Score: "+ score +"   Level: "+ "      Time: "+ millis()/1000, width/2, 40);
+  text("Score: "+ score +"      Time: "+ millis()/1000, width/2, 40);
 }
