@@ -22,7 +22,7 @@ void draw() {
   background(0);
   fill(250);
   textAlign(CENTER);
-  text("Game Over :(", width/2, height/2);
+  text("Game Over :( \n Press any key to start over", width/2, height/2);
   if (keyPressed) {
     snek1 = new SnakeHead(width/2,+height/2+offsety/2);
   frame = new Time(frametime);
