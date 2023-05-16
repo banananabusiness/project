@@ -1,5 +1,5 @@
 ## Snake
-We are gonna try and make the game a fun and competitve game, by making a timer and a leaderboard.
+Our snake game is a competitive game, using a timer and a score of how many apple the snake has eaten. The game continues the snake grows longer, and the player must avoid colliding with the snake's own body. The player may be able to WASD or the arrow keys to move the snake around the map.
 
 ---
 ### Class Diagram
