@@ -7,6 +7,7 @@ int offsety = 50;
 int score = 0;
 boolean end;
 int endtime = 0;
+int endscore = 0;
 
 void settings(){size(850, 850 + offsety);}
 
@@ -24,7 +25,7 @@ void draw() {
   background(0);
   fill(250);
   textAlign(CENTER);
-  text("Game Over :( \n Press any key to start over", width/2, height/2);
+  text("Game Over :(\nScore: "+ score +"      Time: "+ endscore +"\nPress any key to start over", width/2, height/2);
   if (keyPressed) {
   snek1 = new SnakeHead(width/2,+height/2+offsety/2);
   frame = new Time(frametime);
@@ -59,6 +60,7 @@ void draw() {
     
       if (snek1.intersect(snek1)) {
     end = true;
+    endscore = millis()/1000-endtime/1000;
   }
     
     frame.start();
